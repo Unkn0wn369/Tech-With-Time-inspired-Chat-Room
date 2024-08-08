@@ -1,0 +1,77 @@
+.content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(16, 16, 49);
+}
+
+.buttons {
+    font-size: 18px;
+    color: rgb(196, 188, 174);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+    width: 50%;
+    background-color: rgb(16, 16, 49);
+    gap: 10px;
+    margin-top: 30vh;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px ;
+    background-color: rgb(32, 32, 61);
+}
+
+.create-btn {
+    width: 20%;
+    font-size: 100%;
+    border-radius: 20px;
+}
+
+.name-input, .join-input-btn {
+    font-size: 18px;
+}
+
+.message-box {
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 20px;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80vh;
+}
+
+.messages {
+    overflow-y: scroll;
+    flex: auto;
+    width: 100%;
+}
+
+#message {
+    width: 80%;
+    height: 25px;
+    font-size: 15px;
+}
+#send-btn {
+    font-size: 18px;
+}
+
+.text, .muted-date {
+    color: white;
+    font-size: 18px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 10px 0;
+}
